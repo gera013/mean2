@@ -5,6 +5,7 @@ const morgan = require('morgan');
 const app = express();
 
 const { mongoose } = require('./database');
+const routesEmpleoyees = require('./routes/employee.routes');
 
 /***********************
 ** Settings
@@ -20,6 +21,7 @@ app.use(express.json());
 /***********************
 ** Routes
 ***********************/
+app.use('/api/employees', routesEmpleoyees);
 
 /***********************
 ** Starting the server
