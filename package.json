@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gera013/mean2#readme",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "mongoose": "^5.1.7",
     "morgan": "^1.9.0"
